@@ -13,6 +13,7 @@ package logicalpgm;
 	        System.out.print("Enter number to reverse it : ");
 
 	        num = sc.nextInt();
+	        if(num>0) {
 
 	        while(num != 0) {
 
@@ -22,9 +23,13 @@ package logicalpgm;
 	            
 	            num /= 10;
 
+	       
+	        }
+	        System.out.println("Reversed Number: " + reversed);
+	        }
+	        else {
+	        	System.out.println("invalid number");
 	        }
 
-	        System.out.println("Reversed Number: " + reversed);
 	    }
-
-}
+	    }
