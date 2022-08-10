@@ -11,6 +11,6 @@ public class CouponNum {
 			random /= chars.length;
 		}
 		String couponCode = sb.toString();
-		System.out.println("Coupon Code: " + couponCode);
+		System.out.println("Coupon Code:-" + couponCode);
 	}
 }
