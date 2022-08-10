@@ -8,7 +8,7 @@ class utilityMonthlyPay{
 
     public utilityMonthlyPay() {
 
-        System.out.println("thak-you for using me to calculate monthly payment of your loan.");
+        System.out.println("thank-you for using me to calculate monthly payment of your loan.");
 
         System.out.print("Enter your principle loan amount : ");
 
